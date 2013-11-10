@@ -1,0 +1,8 @@
+h1
+  | Loan it to me
+- @categories.each do |c|
+  .row-fluid
+    .push-auto
+      .span4
+        p
+          = link_to c.name, category_path(c),  class: "btn btn-large"

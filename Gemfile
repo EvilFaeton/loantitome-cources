@@ -9,6 +9,7 @@ gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.0.2.0'
+gem "twitter-bootstrap-rails"
 
 gem 'slim-rails'
 
